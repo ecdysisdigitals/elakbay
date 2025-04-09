@@ -66,7 +66,7 @@ export default function KulturaAtEsperitwalidad() {
               <div className="absolute -bottom-3 -right-3 w-10 h-10 border-b-2 border-r-2 border-withered-leaves/50"></div>
 
               <Image
-                src="/placeholder.svg?height=400&width=300"
+                src="/12.jpg?height=400&width=300"
                 alt="Larawan ng Espiritwalidad"
                 width={300}
                 height={400}
@@ -88,7 +88,7 @@ export default function KulturaAtEsperitwalidad() {
               <div className="absolute -bottom-3 -right-3 w-10 h-10 border-b-2 border-r-2 border-withered-leaves/50"></div>
 
               <Image
-                src="/placeholder.svg?height=400&width=300"
+                src="/8.jpg?height=400&width=300"
                 alt="Larawan ng Kultura"
                 width={300}
                 height={400}
@@ -174,15 +174,7 @@ export default function KulturaAtEsperitwalidad() {
               <div className="absolute -top-3 -left-3 w-10 h-10 border-t-2 border-l-2 border-copper/70"></div>
               <div className="absolute -bottom-3 -right-3 w-10 h-10 border-b-2 border-r-2 border-copper/70"></div>
 
-              <div className="mb-4">
-                <Image
-                  src="/placeholder.svg?height=200&width=400"
-                  alt="Larawan ng Pagpapakumbaba"
-                  width={400}
-                  height={200}
-                  className="sepia-image w-full h-48 object-cover"
-                />
-              </div>
+            
               <h3 className="text-xl font-bold mb-2">Pagpapakumbaba</h3>
               <p>
                 Sa diwang ito, naisasabuhay hindi lamang ng mga hinihirang na mga hari at reyna, kung hindi maging ng
@@ -201,15 +193,7 @@ export default function KulturaAtEsperitwalidad() {
               <div className="absolute -top-3 -left-3 w-10 h-10 border-t-2 border-l-2 border-copper/70"></div>
               <div className="absolute -bottom-3 -right-3 w-10 h-10 border-b-2 border-r-2 border-copper/70"></div>
 
-              <div className="mb-4">
-                <Image
-                  src="/placeholder.svg?height=200&width=400"
-                  alt="Larawan ng Pasasalamat"
-                  width={400}
-                  height={200}
-                  className="sepia-image w-full h-48 object-cover"
-                />
-              </div>
+            
               <h3 className="text-xl font-bold mb-2">Pasasalamat</h3>
               <p>
                 Ang selebrasyon ay nagsisilbi ring pagkakataon para sa pasasalamat. Sa mga panalangin, pag-aalay, at
