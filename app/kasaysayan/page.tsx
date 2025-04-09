@@ -55,7 +55,6 @@ export default function Kasaysayan() {
                 </p>
                 <div className="mt-4 flex items-center text-sm text-withered-leaves/80">
                   <Calendar className="w-4 h-4 mr-1" />
-                  <span>Itinatag: 1951</span>
                 </div>
               </motion.div>
 
@@ -66,7 +65,7 @@ export default function Kasaysayan() {
                 className="image-frame"
               >
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/3.jpg?height=400&width=600"
                   alt="Larawan ng Harian"
                   width={600}
                   height={400}
@@ -90,7 +89,7 @@ export default function Kasaysayan() {
                 className="image-frame order-1 md:order-2"
               >
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/11.jpg?height=400&width=600"
                   alt="Larawan ng Renahan"
                   width={600}
                   height={400}
