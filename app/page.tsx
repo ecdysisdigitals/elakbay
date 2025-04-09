@@ -49,7 +49,7 @@ export default function Home() {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/placeholder.svg?height=1080&width=1920"
+            src="/5.png?height=1080&width=1920"
             alt="Vinzons, Camarines Norte"
             fill
             className="object-cover sepia-image"
