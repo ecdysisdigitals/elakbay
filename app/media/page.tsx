@@ -32,14 +32,13 @@ export default function Media() {
 
   // Sources list
   const sources = [
-    "Balce, F. (1975). Ang Kasaysayan ng Harian sa Vinzons. Naga City Press.",
-    "Cereno, V. (1982). Mga Tradisyon at Kultura ng Camarines Norte. Manila Publishing House.",
-    "Department of Tourism - Bicol Region. (2010). Cultural Heritage of Vinzons.",
-    "Gonzales, M. (2005). Espiritwalidad at Kultura sa Bicol. University of the Philippines Press.",
-    "National Commission for Culture and the Arts. (2015). Dokumentasyon ng mga Pistahan sa Bicol.",
-    "Reyes, J. (2018). Oral History Collection: Interviews with Vinzons Elders.",
-    "Santos, L. (2000). Harian at Reynahan: Isang Pag-aaral. Journal of Philippine Studies, 45(2), 78-92.",
-    "Vinzons Historical Society. (2012). Archive of Historical Photographs of Harian and Reynahan.",
+    "Munisipyo ng Vinzons: https://maps.app.goo.gl/L6SvRYJmkh6Sy79A6",
+    "Huli White 3 Kings 2018: https://www.facebook.com/photo/?fbid=402524756761355&set=a.324593451221153",
+    "69th Huli White Anniversay Celebration - Royal Grandmarch of the Kings & Ex-Kings with their Queens: https://www.facebook.com/cleah.jane.7/videos/2313758088843717",
+    "67th Huli White Celebration - Royal Grand March: https://www.facebook.com/watch?ref=search&v=402438953436602&external_log_id=c805689c-5ed4-4533-98de-e80dfeec10f3&q=huli%20white%20celebration",
+    "huli white celebration 2019: https://www.facebook.com/watch/?ref=search&v=574391432986610&external_log_id=afeef424-6ebb-41b6-af3e-6eb60f7f8614&q=huli%20white%20celebration",
+    "71st HULI WHITE CELEBRATION at TOWN KIOSK: https://www.facebook.com/shvillafranca/videos/746852496861357", 
+    "Grandmach of Tres Reyna's 2024 and ex Reyna's - Bolo Calang Cawan Norte Vinzons Camarines Norte: https://www.facebook.com/watch/?ref=search&v=847953240438794&external_log_id=7c5e8fc1-c425-49c2-8e90-dddc420cd1cf&q=Tres%20Reynas%20Vinzons"
   ]
 
   return (
