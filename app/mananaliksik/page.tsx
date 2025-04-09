@@ -12,7 +12,7 @@ export default function Mananaliksik() {
   const researchers = [
     {
       id: 1,
-      name: "Juan Dela Cruz",
+      name: "John Patrick",
       role: "Lead Researcher",
       bio: "Si Juan ay isang historyador at mananaliksik na nakatuon sa pag-aaral ng mga lokal na kasaysayan at kultura ng Bicol Region, partikular sa Harian at Reynahan ng Vinzons, Camarines Norte.",
       image: "/placeholder.svg?height=400&width=400",
