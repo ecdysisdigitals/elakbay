@@ -87,7 +87,7 @@ export default function Media() {
                     <div className="absolute -bottom-3 -right-3 w-10 h-10 border-b-2 border-r-2 border-withered-leaves/50"></div>
 
                     <Image
-                      src={image.src || "/placeholder.svg"}
+                      src={image.src || "/1.jpg"}
                       alt={image.alt}
                       width={600}
                       height={400}
