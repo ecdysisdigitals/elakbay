@@ -30,7 +30,6 @@ export default function Navbar() {
     { name: "Gawi at Paniniwala", href: "/gawi-at-paniniwala" },
     { name: "Kultura at Esperitwalidad", href: "/kultura-at-esperitwalidad" },
     { name: "Media", href: "/media" },
-    { name: "Mananaliksik", href: "/mananaliksik" },
   ]
 
   return (
