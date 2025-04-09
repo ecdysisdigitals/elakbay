@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { Users } from "lucide-react"
 
 export default function Footer() {
   return (
@@ -11,6 +12,16 @@ export default function Footer() {
               Isang virtual na paglalakbay sa mayamang kultura at kasaysayan ng Harian at Renahan sa Vinzons, Camarines
               Norte.
             </p>
+            <div className="mt-6">
+              <h4 className="text-lg font-bold mb-2 flex items-center">
+                <Users className="w-4 h-4 mr-2 text-copper" />
+                Mananaliksik
+              </h4>
+              <ul className="space-y-1 text-withered-leaves/80">
+                <li>Juan Dela Cruz - Lead Researcher</li>
+                <li>Maria Santos - Cultural Anthropologist</li>
+              </ul>
+            </div>
           </div>
 
           <div>
@@ -48,14 +59,6 @@ export default function Footer() {
               <li>
                 <Link href="/media" className="text-withered-leaves/80 hover:text-withered-leaves transition-colors">
                   Media
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/mananaliksik"
-                  className="text-withered-leaves/80 hover:text-withered-leaves transition-colors"
-                >
-                  Mananaliksik
                 </Link>
               </li>
             </ul>
