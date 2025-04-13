@@ -290,7 +290,7 @@ export default function Home() {
 
       {/* Featured Sections */}
       <section className="py-20 bg-light-beige relative">
-        <div className="absolute inset-0 bg-pattern"></div>
+        
         <div className="vintage-container relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
