@@ -163,7 +163,7 @@ export default function KulturaAtEsperitwalidad() {
 
               <div className="mb-4">
                 <Image
-                  src="/16.png?height=200&width=400"
+                  src="/9.jpg?height=200&width=400"
                   alt="Larawan ng Pananampalataya"
                   width={400}
                   height={200}
