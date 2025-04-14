@@ -256,10 +256,10 @@ export default function Media() {
             />
           </div>
           <div className="flex-1 text-center md:text-left">
-            <h3 className="text-2xl font-bold text-brown-deer">Dr. Maria Santos</h3>
+            <h3 className="text-2xl font-bold text-brown-deer">John Patrick Suterio</h3>
             <p className="text-copper font-medium text-lg">Pangunahing Mananaliksik</p>
             <p className="mt-2 text-brown-deer/80">
-              Propesor ng Kasaysayan sa Unibersidad ng Pilipinas at espesyalista sa kulturang Bikolano. Nanguna sa
+              Estudyante ng Camarines Norte State College. Nanguna sa
               pananaliksik at dokumentasyon ng Harian at Reynahan mula 2018 hanggang 2022.
             </p>
           </div>
@@ -286,11 +286,11 @@ export default function Media() {
             />
           </div>
           <div className="flex-1 text-center md:text-left">
-            <h3 className="text-2xl font-bold text-brown-deer">Prof. Juan Reyes</h3>
+            <h3 className="text-2xl font-bold text-brown-deer">Rose Anne Abletas</h3>
             <p className="text-copper font-medium text-lg">Mananaliksik</p>
             <p className="mt-2 text-brown-deer/80">
-              Espesyalista sa Oral History at Lokal na Kultura. Nagsagawa ng mga panayam sa mga nakatatandang
-              miyembro ng komunidad upang idokumento ang mga kuwento at tradisyon.
+               Estudyante ng Camarines Norte State College. Nanguna sa
+              pananaliksik at dokumentasyon ng Harian at Reynahan mula 2018 hanggang 2022.
             </p>
           </div>
         </div>
@@ -316,7 +316,7 @@ export default function Media() {
             <div className="absolute -top-3 -left-3 w-10 h-10 border-t-2 border-l-2 border-brown-deer/50"></div>
             <div className="absolute -bottom-3 -right-3 w-10 h-10 border-b-2 border-r-2 border-brown-deer/50"></div>
             <Image
-              src="/placeholder.svg?height=160&width=160"
+              src="/19.png?height=160&width=160"
               alt="G. Roberto Cruz"
               width={160}
               height={160}
@@ -324,11 +324,9 @@ export default function Media() {
             />
           </div>
           <div className="flex-1 text-center md:text-left">
-            <h3 className="text-2xl font-bold text-brown-deer">G. Roberto Cruz</h3>
+            <h3 className="text-2xl font-bold text-brown-deer">RYAN S. RODRIGUEZ, PhD</h3>
             <p className="text-copper font-medium text-lg">Tagapayo</p>
-            <p className="mt-2 text-brown-deer/80">
-              Lider ng Komunidad at Tagapangalaga ng Tradisyon sa Vinzons. Nagbigay ng mahahalagang impormasyon at
-              gabay sa pag-unawa ng mga ritwal at seremonya ng Harian at Reynahan.
+            <p className="mt-2 text-brown-deer/80">Nagtapos ng kolehiyo sa La Consolacion College-Daet sa kursong Batsilyer sa Pansekondaryang Edukasyon major sa Filipino noong 2005. Nagtapos ng Master of Arts in Education major sa Filipino sa Universidad de Santa Isabel - Lungsod Naga. 
             </p>
           </div>
         </div>
