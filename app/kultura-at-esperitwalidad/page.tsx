@@ -44,15 +44,20 @@ export default function KulturaAtEsperitwalidad() {
                 Espiritwal na Diwa ng Harian at Reynahan
               </h2>
               <p className="mb-4">
-                Higit pa sa makulay at masayang selebrasyon, ang Harian at Reynahan ay nagsisilbing patunay ng malalim
-                na pananampalataya ng mga taga-Vinzons. Sa kabila ng engrandeng kasuotan, makukulay na dekorasyon, at
-                masiglang mga aktibidad, nananatili ang espiritwal na puso ng pagdiriwang. Isa itong banal na paggunita
-                na nagpapalalim ng ugnayan ng mga mamamayan sa Diyos at sa isa't isa.
+                Tunay na malalim ang ispirituwal na koneksyon ng mga mamamayan sa bayan ng Vinzons, lalo na sa
+                pagdiriwang ng Harian at Reynahan. Isa itong mahalagang salik kung bakit mas nadarama ang diwa ng
+                selebrasyon hindi bilang isang simpleng pagtitipon, kung hindi isang makabuluhang sandali ng
+                pananampalataya. Sa pagsisimula ng pagdiriwang sa pamamagitan ng panalangin at banal na misa,
+                naipapakita Sa pagsisimula ng pagdiriwang sa pamamagitan ng panalangin at banal na misa, naipapakita ang
+                matatag na pananampalataya ng komunidad at ang pagkakabigkis nila sa isa't isa. Sa ganitong paraan,
+                nagiging buhay na pagsasadula ang paggunita sa pagdating ng Tatlong Hari ng kabutihang-loob at
+                pananampalataya sa Diyos.
               </p>
               <p>
-                Matagal nang bahagi ng kulturang Vinzons ang Harian at Reynahan, at ito'y patuloy na isinasabuhay ng
-                bawat henerasyon. Isa itong nagpasalin-saling pamana, na nagbibigay-diin sa kahalagahan ng
-                pananampalataya sa kabila ng makabagong panahon.
+                Matagal nang bahagi ang Harian at Reynahan ng kultura ng Vinzons at patuloy na isinasabuhay ng bawat
+                henerasyon. Isa itong manipestasyon ng pagiging relihiyoso ng mga mamamayan, kung saan hindi lamang
+                limitado ang pagdiriwang sa aspeto ng kasiyahan kung hindi nagsisilbi ring daluyan ng ispirituwal na
+                paninindigan ng komunidad.
               </p>
             </motion.div>
 
@@ -110,9 +115,10 @@ export default function KulturaAtEsperitwalidad() {
                 Kultural na Kabuluhan
               </h2>
               <p className="mb-4">
-                Ang Harian at Reynahan ay nagsisilbing espasyo rin para sa pagkakabuklod at muling pagkikita ng mga
-                magkakahiwalay na pamilya. Ang bawat bahagi ng pagdiriwang ay naging pagkakataon para sa pagkakaroon ng
-                kasiyahan at pagsasama-sama, hindi lamang ng magkakamag-anak, kung hindi ng buong komunidad.
+                Nakaugat sa kasaysayan at karanasang panlipunan ng Vinzons ang taunang pagdiriwang ng Harian at
+                Reynahan. Isa itong kultural na okasyong hindi lamang nagpapakita ng makukulay na kasuotan, handog, at
+                palatuntunan, kung hindi nagsisilbi ring salamin ng mga pagpapahalagang gaya ng bayanihan, paggalang sa
+                tradisyon, at pagpaparangal sa pinagmulan.
               </p>
               <p className="mb-4">
                 Hindi rin matatawaran ang kultural na pagpapahalagang ibinubunga ng tradisyong ito. Sa pamamagitan ng
@@ -220,7 +226,7 @@ export default function KulturaAtEsperitwalidad() {
               </div>
               <h3 className="text-xl font-bold mb-2">Pasasalamat</h3>
               <p>
-                Ang selebrasyon ay nagsisilbi ring pagkakataon para sa pasasalamat. Sa mga panalangin, pag-aalay, at
+                Ang selebrasyon nagsisilbi ring pagkakataon para sa pasasalamat. Sa mga panalangin, pag-aalay, at
                 pagbibigayan, ipinapakita ng komunidad ang kanilang taos-pusong pasasalamat sa mga biyayang natanggap.
               </p>
             </motion.div>
