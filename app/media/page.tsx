@@ -17,11 +17,11 @@ export default function Media() {
 
   // Images array with actual image files
   const images = [
-    { id: 1, src: "/1.jpg", alt: "Larawan 1" },
-    { id: 2, src: "/2.jpg", alt: "Larawan 2" },
-    { id: 3, src: "/3.jpg", alt: "Larawan 3" },
-    { id: 4, src: "/4.jpg", alt: "Larawan 4" },
-    { id: 5, src: "/5.jpg", alt: "Larawan 5" },
+    { id: 1, src: "/1.png", alt: "Larawan 1" },
+    { id: 2, src: "/2.png", alt: "Larawan 2" },
+    { id: 3, src: "/3.png", alt: "Larawan 3" },
+    { id: 4, src: "/4.png", alt: "Larawan 4" },
+    { id: 5, src: "/5.png", alt: "Larawan 5" },
     { id: 6, src: "/6.jpg", alt: "Larawan 6" },
     { id: 7, src: "/7.jpg", alt: "Larawan 7" },
     { id: 8, src: "/8.jpg", alt: "Larawan 8" },
@@ -29,7 +29,7 @@ export default function Media() {
     { id: 10, src: "/10.jpg", alt: "Larawan 10" },
     { id: 11, src: "/11.jpg", alt: "Larawan 11" },
     { id: 12, src: "/12.jpg", alt: "Larawan 12" },
-    { id: 13, src: "/13.jpg", alt: "Larawan 13" },
+    { id: 13, src: "/13.png", alt: "Larawan 13" },
     { id: 14, src: "/14.jpg", alt: "Larawan 14" },
     { id: 15, src: "/15.jpg", alt: "Larawan 15" },
     { id: 16, src: "/16.png", alt: "Larawan 16" },
