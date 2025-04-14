@@ -155,8 +155,8 @@ export default function Home() {
                   />
                 </div>
                 <p className="mb-4 text-brown-deer">
-                  Ang Harian ay isang makasaysayang lugar sa Vinzons, Camarines Norte na nagsisilbing tahanan ng
-                  mayamang kultura at tradisyon. Ito ay naging sentro ng pamumuhay at pananampalataya ng mga mamamayan
+                  Ang Harian, isang makasaysayang lugar sa Vinzons, Camarines Norte na nagsisilbing tahanan ng
+                  mayamang kultura at tradisyon. Naging sentro ng pamumuhay at pananampalataya ng mga mamamayan
                   sa loob ng maraming henerasyon.
                 </p>
                 <motion.div whileHover={{ x: 5 }} whileTap={{ scale: 0.95 }}>
