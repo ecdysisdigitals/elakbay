@@ -50,7 +50,7 @@ export default function Home() {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/placeholder.svg?height=1080&width=1920"
+            src="/16.png?height=1080&width=1920"
             alt="Vinzons, Camarines Norte"
             fill
             className="object-cover sepia-image"
@@ -86,7 +86,6 @@ export default function Home() {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.6, duration: 0.8 }}
             >
-              Vinzons, Camarines Norte
 
               Elektronikong Paglalakbay sa Ilang Taong Koronasyon ng Pananampalataya't Tradisyon
             </motion.p>
