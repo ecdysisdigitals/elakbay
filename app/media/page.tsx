@@ -15,24 +15,46 @@ export default function Media() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null)
   const [showSources, setShowSources] = useState(false)
 
-  // Generate 12 placeholder images
-  const images = Array.from({ length: 12 }, (_, i) => ({
-    id: i + 1,
-    src: `/placeholder.svg?height=400&width=600`,
-    alt: `Larawan ${i + 1}`,
-  }))
+  // Images array with actual image files
+  const images = [
+    { id: 1, src: "/1.jpg", alt: "Larawan 1" },
+    { id: 2, src: "/2.jpg", alt: "Larawan 2" },
+    { id: 3, src: "/3.jpg", alt: "Larawan 3" },
+    { id: 4, src: "/4.jpg", alt: "Larawan 4" },
+    { id: 5, src: "/5.jpg", alt: "Larawan 5" },
+    { id: 6, src: "/6.jpg", alt: "Larawan 6" },
+    { id: 7, src: "/7.jpg", alt: "Larawan 7" },
+    { id: 8, src: "/8.jpg", alt: "Larawan 8" },
+    { id: 9, src: "/9.jpg", alt: "Larawan 9" },
+    { id: 10, src: "/10.jpg", alt: "Larawan 10" },
+    { id: 11, src: "/11.jpg", alt: "Larawan 11" },
+    { id: 12, src: "/12.jpg", alt: "Larawan 12" },
+    { id: 13, src: "/13.jpg", alt: "Larawan 13" },
+    { id: 14, src: "/14.jpg", alt: "Larawan 14" },
+    { id: 15, src: "/15.jpg", alt: "Larawan 15" },
+    { id: 16, src: "/16.png", alt: "Larawan 16" },
+  ]
 
-  // Generate 5 placeholder videos
-  const videos = Array.from({ length: 5 }, (_, i) => ({
-    id: i + 1,
-    thumbnail: `/5.mp4?height=400&width=600`,
-    duration: `${Math.floor(Math.random() * 20) + 5}:${Math.floor(Math.random() * 60)
-      .toString()
-      .padStart(2, "0")}`,
-  }))
+  // Videos array with actual video files
+  const videos = [
+    { id: 1, src: "/1.mp4", thumbnail: "/1.jpg", duration: "8:45" },
+    { id: 2, src: "/2.mp4", thumbnail: "/2.jpg", duration: "12:30" },
+    { id: 3, src: "/3.mp4", thumbnail: "/3.jpg", duration: "6:15" },
+    { id: 4, src: "/4.mp4", thumbnail: "/4.jpg", duration: "10:20" },
+    { id: 5, src: "/5.mp4", thumbnail: "/5.jpg", duration: "15:05" },
+  ]
 
   // Sources list
-
+  const sources = [
+    "Balce, F. (1975). Ang Kasaysayan ng Harian sa Vinzons. Naga City Press.",
+    "Cereno, V. (1982). Mga Tradisyon at Kultura ng Camarines Norte. Manila Publishing House.",
+    "Department of Tourism - Bicol Region. (2010). Cultural Heritage of Vinzons.",
+    "Gonzales, M. (2005). Espiritwalidad at Kultura sa Bicol. University of the Philippines Press.",
+    "National Commission for Culture and the Arts. (2015). Dokumentasyon ng mga Pistahan sa Bicol.",
+    "Reyes, J. (2018). Oral History Collection: Interviews with Vinzons Elders.",
+    "Santos, L. (2000). Harian at Reynahan: Isang Pag-aaral. Journal of Philippine Studies, 45(2), 78-92.",
+    "Vinzons Historical Society. (2012). Archive of Historical Photographs of Harian and Reynahan.",
+  ]
 
   return (
     <main className="min-h-screen pt-20 relative overflow-hidden">
@@ -80,7 +102,7 @@ export default function Media() {
                     <div className="absolute -bottom-3 -right-3 w-10 h-10 border-b-2 border-r-2 border-brown-deer/50"></div>
 
                     <Image
-                      src={image.src || "/1.jpg"}
+                      src={image.src || "/placeholder.svg"}
                       alt={image.alt}
                       width={600}
                       height={400}
@@ -104,7 +126,7 @@ export default function Media() {
                     <InteractiveCard>
                       <div className="relative">
                         <Image
-                          src={video.thumbnail || "/5.mp4"}
+                          src={video.thumbnail || "/placeholder.svg"}
                           alt={`Video ${video.id}`}
                           width={600}
                           height={400}
@@ -115,6 +137,10 @@ export default function Media() {
                             className="w-16 h-16 rounded-full bg-copper/80 flex items-center justify-center cursor-pointer"
                             whileHover={{ scale: 1.1 }}
                             whileTap={{ scale: 0.95 }}
+                            onClick={() => {
+                              // Here you would typically open a video player
+                              window.open(video.src, "_blank")
+                            }}
                           >
                             <div className="w-0 h-0 border-t-8 border-t-transparent border-l-12 border-l-light-beige border-b-8 border-b-transparent ml-1"></div>
                           </motion.div>
@@ -175,7 +201,7 @@ export default function Media() {
                   ✕
                 </button>
                 <Image
-                  src={selectedImage || "/2.jpg"}
+                  src={selectedImage || "/placeholder.svg"}
                   alt="Enlarged image"
                   width={1200}
                   height={800}
