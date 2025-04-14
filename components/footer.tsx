@@ -10,7 +10,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center mb-4">
               <Image
-                src="/lakbay.png"
+                src="/e-lakbay-logo.png"
                 alt="E-Lakbay Logo"
                 width={150}
                 height={50}
