@@ -64,6 +64,7 @@ export default function Footer() {
             </ul>
           </div>
         </div>
+          
 
         <div className="border-t border-brown-deer/20 mt-8 pt-8 text-center">
           <p className="text-brown-deer font-medium">
