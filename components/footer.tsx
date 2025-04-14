@@ -21,16 +21,7 @@ export default function Footer() {
               Isang virtual na paglalakbay sa mayamang kultura at kasaysayan ng Harian at Reynahan sa Vinzons, Camarines
               Norte.
             </p>
-            <div className="mt-6">
-              <h4 className="text-lg font-bold mb-2 flex items-center">
-                <Users className="w-4 h-4 mr-2 text-copper" />
-                Mananaliksik
-              </h4>
-              <ul className="space-y-1 text-brown-deer font-medium">
-                <li>Juan Dela Cruz - Lead Researcher</li>
-                <li>Maria Santos - Cultural Anthropologist</li>
-              </ul>
-            </div>
+            {/* Removed Mananaliksik section */}
           </div>
 
           <div>
