@@ -38,7 +38,7 @@ export default function Kultura() {
               <div className="absolute -bottom-3 -right-3 w-10 h-10 border-b-2 border-r-2 border-brown-deer/50"></div>
 
               <Image
-                src="/placeholder.svg?height=400&width=300"
+                src="/11.jpg?height=400&width=300"
                 alt="Larawan ng Kultura"
                 width={300}
                 height={400}
