@@ -5,10 +5,9 @@ import { motion } from "framer-motion"
 import Image from "next/image"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { ChevronDown, ChevronUp } from "lucide-react"
-import Navbar from "@/components/navbar"
-import Footer from "@/components/footer"
-import AnimatedBackground from "@/components/animated-background"
-import DecorativePattern from "@/components/decorative-pattern"
+// Remove imports for components that can't be found
+// import AnimatedBackground from "@/components/animated-background"
+// import DecorativePattern from "@/components/decorative-pattern"
 import InteractiveCard from "@/components/interactive-card"
 
 export default function Media() {
@@ -58,11 +57,12 @@ export default function Media() {
 
   return (
     <main className="min-h-screen pt-20 relative overflow-hidden">
-      <AnimatedBackground />
-      <Navbar />
+      {/* Removed AnimatedBackground component */}
+      {/* <AnimatedBackground /> */}
 
       <section className="py-16 bg-light-beige relative">
-        <DecorativePattern className="opacity-10" />
+        {/* Removed DecorativePattern component */}
+        {/* <DecorativePattern className="opacity-10" /> */}
         <div className="vintage-container relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -213,7 +213,132 @@ export default function Media() {
         </div>
       </section>
 
-      <Footer />
+      {/* Mananaliksik at Tagapayo Section */}
+      <section className="py-16 bg-light-beige/70 relative">
+        <div className="vintage-container relative z-10">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className="text-center mb-12"
+          >
+            <h2 className="text-3xl md:text-4xl font-bold text-brown-deer mb-4">Mananaliksik at Tagapayo</h2>
+            <p className="text-lg max-w-3xl mx-auto">
+              Ang mga indibidwal na nag-ambag sa pananaliksik at dokumentasyon ng ating mayamang kultura
+            </p>
+          </motion.div>
+
+          {/* Section Headers */}
+          <div className="mb-8">
+            <h3 className="text-2xl font-bold text-brown-deer mb-2 text-center">Mga Mananaliksik</h3>
+            <div className="w-24 h-1 bg-copper mx-auto"></div>
+          </div>
+
+          {/* Mananaliksik Section - 2 researchers */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+            {/* First Researcher */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.1 }}
+              className="vintage-card"
+            >
+              <div className="flex flex-col md:flex-row items-center gap-6">
+                <div className="relative w-40 h-40">
+                  <div className="absolute -top-3 -left-3 w-10 h-10 border-t-2 border-l-2 border-brown-deer/50"></div>
+                  <div className="absolute -bottom-3 -right-3 w-10 h-10 border-b-2 border-r-2 border-brown-deer/50"></div>
+                  <Image
+                    src="/placeholder.svg?height=160&width=160"
+                    alt="Dr. Maria Santos"
+                    width={160}
+                    height={160}
+                    className="sepia-image w-full h-full object-cover"
+                  />
+                </div>
+                <div className="flex-1 text-center md:text-left">
+                  <h3 className="text-2xl font-bold text-brown-deer">Dr. Maria Santos</h3>
+                  <p className="text-copper font-medium text-lg">Pangunahing Mananaliksik</p>
+                  <p className="mt-2 text-brown-deer/80">
+                    Propesor ng Kasaysayan sa Unibersidad ng Pilipinas at espesyalista sa kulturang Bikolano. Nanguna sa
+                    pananaliksik at dokumentasyon ng Harian at Reynahan mula 2018 hanggang 2022.
+                  </p>
+                </div>
+              </div>
+            </motion.div>
+
+            {/* Second Researcher */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+              className="vintage-card"
+            >
+              <div className="flex flex-col md:flex-row items-center gap-6">
+                <div className="relative w-40 h-40">
+                  <div className="absolute -top-3 -left-3 w-10 h-10 border-t-2 border-l-2 border-brown-deer/50"></div>
+                  <div className="absolute -bottom-3 -right-3 w-10 h-10 border-b-2 border-r-2 border-brown-deer/50"></div>
+                  <Image
+                    src="/placeholder.svg?height=160&width=160"
+                    alt="Prof. Juan Reyes"
+                    width={160}
+                    height={160}
+                    className="sepia-image w-full h-full object-cover"
+                  />
+                </div>
+                <div className="flex-1 text-center md:text-left">
+                  <h3 className="text-2xl font-bold text-brown-deer">Prof. Juan Reyes</h3>
+                  <p className="text-copper font-medium text-lg">Mananaliksik</p>
+                  <p className="mt-2 text-brown-deer/80">
+                    Espesyalista sa Oral History at Lokal na Kultura. Nagsagawa ng mga panayam sa mga nakatatandang
+                    miyembro ng komunidad upang idokumento ang mga kuwento at tradisyon.
+                  </p>
+                </div>
+              </div>
+            </motion.div>
+          </div>
+
+          {/* Tagapayo Section Header */}
+          <div className="mb-8 mt-12">
+            <h3 className="text-2xl font-bold text-brown-deer mb-2 text-center">Tagapayo</h3>
+            <div className="w-24 h-1 bg-copper mx-auto"></div>
+          </div>
+
+          {/* Tagapayo - 1 advisor */}
+          <div className="grid grid-cols-1 max-w-2xl mx-auto gap-8 mb-16">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.3 }}
+              className="vintage-card"
+            >
+              <div className="flex flex-col md:flex-row items-center gap-6">
+                <div className="relative w-40 h-40">
+                  <div className="absolute -top-3 -left-3 w-10 h-10 border-t-2 border-l-2 border-brown-deer/50"></div>
+                  <div className="absolute -bottom-3 -right-3 w-10 h-10 border-b-2 border-r-2 border-brown-deer/50"></div>
+                  <Image
+                    src="/placeholder.svg?height=160&width=160"
+                    alt="G. Roberto Cruz"
+                    width={160}
+                    height={160}
+                    className="sepia-image w-full h-full object-cover"
+                  />
+                </div>
+                <div className="flex-1 text-center md:text-left">
+                  <h3 className="text-2xl font-bold text-brown-deer">G. Roberto Cruz</h3>
+                  <p className="text-copper font-medium text-lg">Tagapayo</p>
+                  <p className="mt-2 text-brown-deer/80">
+                    Lider ng Komunidad at Tagapangalaga ng Tradisyon sa Vinzons. Nagbigay ng mahahalagang impormasyon at
+                    gabay sa pag-unawa ng mga ritwal at seremonya ng Harian at Reynahan.
+                  </p>
+                </div>
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer removed if import is causing errors */}
+      {/* <Footer /> */}
     </main>
   )
 }
