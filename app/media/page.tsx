@@ -25,7 +25,7 @@ export default function Media() {
   // Generate 5 placeholder videos
   const videos = Array.from({ length: 5 }, (_, i) => ({
     id: i + 1,
-    thumbnail: `/placeholder.svg?height=400&width=600`,
+    thumbnail: `/5.mp4?height=400&width=600`,
     duration: `${Math.floor(Math.random() * 20) + 5}:${Math.floor(Math.random() * 60)
       .toString()
       .padStart(2, "0")}`,
@@ -89,7 +89,7 @@ export default function Media() {
                     <div className="absolute -bottom-3 -right-3 w-10 h-10 border-b-2 border-r-2 border-brown-deer/50"></div>
 
                     <Image
-                      src={image.src || "/placeholder.svg"}
+                      src={image.src || "/1.jpg"}
                       alt={image.alt}
                       width={600}
                       height={400}
@@ -113,7 +113,7 @@ export default function Media() {
                     <InteractiveCard>
                       <div className="relative">
                         <Image
-                          src={video.thumbnail || "/placeholder.svg"}
+                          src={video.thumbnail || "/5.mp4"}
                           alt={`Video ${video.id}`}
                           width={600}
                           height={400}
@@ -184,7 +184,7 @@ export default function Media() {
                   ✕
                 </button>
                 <Image
-                  src={selectedImage || "/placeholder.svg"}
+                  src={selectedImage || "/2.jpg"}
                   alt="Enlarged image"
                   width={1200}
                   height={800}
