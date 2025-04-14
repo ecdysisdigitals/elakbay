@@ -14,6 +14,7 @@ export default function Logo() {
           width={150}
           height={50}
           className="h-auto w-auto object-contain"
+          
         />
       </motion.div>
     </Link>
