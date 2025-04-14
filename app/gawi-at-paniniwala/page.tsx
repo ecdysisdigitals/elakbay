@@ -71,10 +71,9 @@ export default function GawiAtPaniniwala() {
                       Bayanihan
                     </h3>
                     <p>
-                      Malinaw rin na ipinapakita ang bayanihan o pagtutulungan ng bawat isa sa komunidad sa mga
-                      paghahanda at pagsasagawa ng mga aktibidad. Sa pangkalahatan, nagpapakita ng isang malalim na
-                      pagpapahalaga sa mga tradisyon, ang mga gawi at paniniwala na nakapaloob sa pagdiriwang ng Harian
-                      at Reynahan.
+                      Malinaw na ipinapakita rin sa pagdiriwang ang di-matatawarang diwa ng bayanihan o pagtutulungan ng
+                      bawat isa sa komunidad sa mga paghahanda at pagsasagawa ng mga aktibidad. Isang katangiang
+                      Pilipino na nananatiling buhay at makabuluhan sa mga lokal na komunidad ng Camarines Norte.
                     </p>
                   </div>
                 </div>
@@ -98,9 +97,9 @@ export default function GawiAtPaniniwala() {
                       Pagtanggap at Pagsunod
                     </h3>
                     <p>
-                      Isa sa pinakamahalagang paniniwala ang pagtanggap at pagsunod na matutunton sa kasabihang "Ang
-                      utos ng hari, hindi puwedeng mabali." Ang mga hari at reyna, bilang mga simbolo ng awtoridad,
-                      tinitingala at sinusunod, at my malalim na epekto sa komunidad ang kabuoang mga desisyon at utos.
+                      Isang mahalagang paniniwala ang pagtanggap at pagsunod na matutunton sa kasabihang "Ang utos ng
+                      hari, hindi puwedeng mabali." Ang mga hari at Reyna, bilang mga simbolo ng awtoridad, tinitingala
+                      at sinusunod, at may malalim na epekto sa komunidad ang kanilang kabuoang mga desisyon at utos.
                     </p>
                   </div>
 
@@ -165,9 +164,9 @@ export default function GawiAtPaniniwala() {
                 </div>
                 <h3 className="text-xl font-bold mb-2">Pagdiriwang ng Pista</h3>
                 <p>
-                  Ang pagdiriwang ng pista ay isang mahalagang bahagi ng kultura ng Harian at Reynahan. Ito ay
-                  nagpapakita ng mayamang tradisyon at kasaysayan ng lugar, at nagsisilbing pagkakataon para sa
-                  pagkakaisa ng komunidad.
+                  Isang mahalagang bahagi rin ng pagdiriwang ang pagkakawanggawa, na makikita sa mga aktibidad tulad ng
+                  pamimigay ng food packs at mga raffle prizes para sa mga mahihirap. Isang makataong gawaing
+                  nagpapakita ng diwa ng malasakit, pakikiisa, at tunay na pagmamahal sa kapwa.
                 </p>
               </InteractiveCard>
             </motion.div>
@@ -186,9 +185,10 @@ export default function GawiAtPaniniwala() {
                 </div>
                 <h3 className="text-xl font-bold mb-2">Pagsasama-sama</h3>
                 <p>
-                  Ang Harian at Reynahan ay nagsisilbing espasyo para sa pagkakabuklod at muling pagkikita ng mga
-                  magkakahiwalay na pamilya. Ang bawat bahagi ng pagdiriwang ay naging pagkakataon para sa pagkakaroon
-                  ng kasiyahan at pagsasama-sama.
+                  Sa mga panahong ito, hindi lamang kasiyahan ang nangingibabaw, kung hindi ang tunay na diwa ng
+                  pagtutulungan, pagkakapit-bisig, at sama-samang pagkilos para sa ikatatagumpay ng selebrasyon. Mula sa
+                  mga paunang pulong hanggang sa aktuwal na araw ng pagdiriwang, makikita ang masigasig na partisipasyon
+                  ng bawat mamamayan.
                 </p>
               </InteractiveCard>
             </motion.div>
@@ -207,9 +207,10 @@ export default function GawiAtPaniniwala() {
                 </div>
                 <h3 className="text-xl font-bold mb-2">Pagbibigayan</h3>
                 <p>
-                  Ipinapaalala ng Harian at Reynahan ang diwa ng pagbibigayan, pagtutulungan, at kababaang-loob na mga
-                  pagpapahalagang hinango sa halimbawa ng Tatlong Hari nang ialay nila ang kanilang handog sa
-                  kapanganakan ni Hesus.
+                  Sa gitna ng makukulay na parada at masasayang palatuntunan, hindi nawawala ang espasyong inilaan para
+                  sa mga gawaing ito na may layuning makapaghatid ng tulong sa mga nangangailangan. Hindi lamang mga
+                  kultural na selebrasyon ang mga ito, kung hindi may malalim ding ugnayan sa pananampalataya at
+                  ispirituwal na pagninilay.
                 </p>
               </InteractiveCard>
             </motion.div>
