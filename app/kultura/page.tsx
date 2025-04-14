@@ -164,7 +164,7 @@ export default function Kultura() {
 
                 <div className="mb-4">
                   <Image
-                    src="/placeholder.svg?height=200&width=200"
+                    src="/3.png?height=200&width=200"
                     alt="Larawan ng Kasuotan"
                     width={200}
                     height={200}
@@ -191,7 +191,7 @@ export default function Kultura() {
 
                 <div className="mb-4">
                   <Image
-                    src="/placeholder.svg?height=200&width=200"
+                    src="/4.png?height=200&width=200"
                     alt="Larawan ng Musika"
                     width={200}
                     height={200}
@@ -218,7 +218,7 @@ export default function Kultura() {
 
                 <div className="mb-4">
                   <Image
-                    src="/placeholder.svg?height=200&width=200"
+                    src="/5.png?height=200&width=200"
                     alt="Larawan ng Pagkain"
                     width={200}
                     height={200}
