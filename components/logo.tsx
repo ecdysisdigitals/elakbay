@@ -11,8 +11,8 @@ export default function Logo() {
         <Image
           src="/lakbay.png"
           alt="E-Lakbay Logo"
-          width={20}
-          height={20}
+          width={1}
+          height={1}
           className="h-auto w-auto object-contain"
           
         />
