@@ -32,16 +32,7 @@ export default function Media() {
   }))
 
   // Sources list
-  const sources = [
-    "Balce, F. (1975). Ang Kasaysayan ng Harian sa Vinzons. Naga City Press.",
-    "Cereno, V. (1982). Mga Tradisyon at Kultura ng Camarines Norte. Manila Publishing House.",
-    "Department of Tourism - Bicol Region. (2010). Cultural Heritage of Vinzons.",
-    "Gonzales, M. (2005). Espiritwalidad at Kultura sa Bicol. University of the Philippines Press.",
-    "National Commission for Culture and the Arts. (2015). Dokumentasyon ng mga Pistahan sa Bicol.",
-    "Reyes, J. (2018). Oral History Collection: Interviews with Vinzons Elders.",
-    "Santos, L. (2000). Harian at Reynahan: Isang Pag-aaral. Journal of Philippine Studies, 45(2), 78-92.",
-    "Vinzons Historical Society. (2012). Archive of Historical Photographs of Harian and Reynahan.",
-  ]
+
 
   return (
     <main className="min-h-screen pt-20 relative overflow-hidden">
