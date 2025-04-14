@@ -256,7 +256,7 @@ export default function Media() {
             />
           </div>
           <div className="flex-1 text-center md:text-left">
-            <h3 className="text-2xl font-bold text-brown-deer">John Patrick Suterio</h3>
+            <h3 className="text-2xl font-bold text-brown-deer">John Patrick A. Suterio</h3>
             <p className="text-copper font-medium text-lg">Pangunahing Mananaliksik</p>
             <p className="mt-2 text-brown-deer/80">
               Estudyante ng Camarines Norte State College. Nanguna sa
@@ -286,7 +286,7 @@ export default function Media() {
             />
           </div>
           <div className="flex-1 text-center md:text-left">
-            <h3 className="text-2xl font-bold text-brown-deer">Rose Anne Abletas</h3>
+            <h3 className="text-2xl font-bold text-brown-deer">Rose Anne M. Abletas</h3>
             <p className="text-copper font-medium text-lg">Mananaliksik</p>
             <p className="mt-2 text-brown-deer/80">
                Estudyante ng Camarines Norte State College. Nanguna sa
