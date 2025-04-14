@@ -241,7 +241,7 @@ export default function Home() {
                 poster="/storyyy.mp4?height=720&width=1280"
                 onClick={handleVideoPlay}
               >
-                <source src="#" type="video/mp4" />
+                <source src="/storyyy.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
 
