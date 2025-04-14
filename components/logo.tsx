@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import Image from "next/image"
 import Link from "next/link"
 
+
 export default function Logo({ size = "normal" }) {
   const dimensions = size === "large" ? { width: 180, height: 60 } : { width: 120, height: 40 }
 
