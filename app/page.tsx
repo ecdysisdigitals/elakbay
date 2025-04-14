@@ -148,7 +148,7 @@ export default function Home() {
                 </h3>
                 <div className="mb-4">
                   <Image
-                    src="/placeholder.svg?height=200&width=400"
+                    src="/1.png?height=200&width=400"
                     alt="Larawan ng Harian"
                     width={400}
                     height={200}
@@ -181,7 +181,7 @@ export default function Home() {
                 </h3>
                 <div className="mb-4">
                   <Image
-                    src="/placeholder.svg?height=200&width=400"
+                    src="/2.png?height=200&width=400"
                     alt="Larawan ng Reynahan"
                     width={400}
                     height={200}
@@ -189,7 +189,7 @@ export default function Home() {
                   />
                 </div>
                 <p className="mb-4 text-brown-deer">
-                  Ang Reynahan ay isang mahalagang bahagi ng kasaysayan ng Vinzons, Camarines Norte. Ito ay nagsisilbing
+                  Ang Reynahan, isang mahalagang bahagi ng kasaysayan ng Vinzons, Camarines Norte. Ito ay nagsisilbing
                   patunay sa mayamang pamana at tradisyon ng mga naninirahan sa lugar na ito.
                 </p>
                 <motion.div whileHover={{ x: 5 }} whileTap={{ scale: 0.95 }}>
