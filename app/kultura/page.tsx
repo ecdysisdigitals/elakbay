@@ -60,22 +60,20 @@ export default function Kultura() {
                 Kultural na Kabuluhan
               </h2>
               <p className="mb-4">
-                Ang Harian at Reynahan nagsisilbing espasyo rin para sa pagkakabuklod at muling pagkikita ng mga
-                magkakahiwalay na pamilya. Ang bawat bahagi ng pagdiriwang naging pagkakataon para sa pagkakaroon ng
-                kasiyahan at pagsasama-sama, hindi lamang ng magkakamag-anak, kung hindi ng buong komunidad. Sa ganitong
-                pagkakataon, nagiging matatag ang ugnayan ng bawat isa, lalo na't hindi lamang mga residente, kung hindi
-                maging mga nagmula sa Vinzons na naninirahan na sa malalayong lugar umuuwi upang makibahagi sa
-                selebrasyon.
+                Nakaugat sa kasaysayan at karanasang panlipunan ng Vinzons ang taunang pagdiriwang ng Harian at
+                Reynahan. Isa itong kultural na okasyong hindi lamang nagpapakita ng makukulay na kasuotan, handog, at
+                palatuntunan, kung hindi nagsisilbi ring salamin ng mga pagpapahalagang gaya ng bayanihan, paggalang sa
+                tradisyon, at pagpaparangal sa pinagmulan.
               </p>
               <p className="mb-4">
+                Ang Harian at Reynahan nagsisilbing espasyo rin para sa pagkakabuklod at muling pagkikita ng mga
+                magkakahiwalay na pamilya. Ang bawat bahagi ng pagdiriwang naging pagkakataon para sa pagkakaroon ng
+                kasiyahan at pagsasama-sama, hindi lamang ng magkakamag-anak, kung hindi ng buong komunidad.
+              </p>
+              <p>
                 Hindi rin matatawaran ang kultural na pagpapahalagang ibinubunga ng tradisyong ito. Sa pamamagitan ng
                 mga simbolikong gamit gaya ng korona, sash, kapa, at mga kulay na tumutukoy sa bawat sektor o barangay,
                 naipapakita ang kahusayan ng mga Vinzonian sa paglikha ng sarili nilang sining at estetika.
-              </p>
-              <p>
-                Sa aspeto ng lipunan, ang Harian at Reynahan may hatid ding positibong epekto sa ekonomiya at turismo.
-                Dahil sa lawak ng partisipasyon at paghahandang kinakailangan, umaangat ang mga lokal na negosyante,
-                tindera, mananahi, at maging mga banda at performer.
               </p>
             </motion.div>
           </div>
@@ -97,14 +95,16 @@ export default function Kultura() {
                 Tradisyon at Pamana
               </h3>
               <p className="mb-4">
-                Ang Harian at Reynahan ay hindi lamang isang simpleng pagdiriwang kundi isang mahalagang bahagi ng
-                kultural na pamana ng mga taga-Vinzons. Ito ay nagsisilbing tulay sa pagitan ng nakaraan at kasalukuyan,
-                na nagpapaalala sa mga bagong henerasyon ng kanilang mayamang kasaysayan at tradisyon.
+                Bilang pagpapatuloy ng diwa ng Harian at Reynahan, ilang kagamitan at kasuotan ang taon-taong ipinapasa
+                mula sa isang henerasyon patungo sa susunod. Kabilang dito ang mga korona at kapa na ginamit ng mga
+                dating Hari at Reyna. Hindi lamang ito isang pisikal na kagamitan kung hindi simbolo ng kasaysayan,
+                karangalan, at pananagutan.
               </p>
               <p>
-                Sa bawat pagdiriwang, naipapamalas ang mga tradisyonal na kasuotan, musika, at ritwal na nagpapakita ng
-                natatanging pagkakakilanlan ng mga taga-Vinzons. Ang mga ito ay maingat na pinangangalagaan at ipinapasa
-                sa susunod na henerasyon upang mapanatili ang kanilang kultural na pamana.
+                Nagsisilbing biswal na representasyon ang kapa ng tungkulin at dignidad ng isang pinuno. Sa pagsusuot
+                nito, isinasabuhay ng bawat Hari ang papel bilang tagapagtaguyod ng tradisyon at tagapangalaga ng
+                pananampalataya. Hindi lamang ito pormal na kasuotan, kung hindi sagisag ng pagpapakumbaba at
+                paninindigan.
               </p>
             </motion.div>
 
@@ -122,14 +122,15 @@ export default function Kultura() {
                 Pagkakaisa at Komunidad
               </h3>
               <p className="mb-4">
-                Ang pagdiriwang ng Harian at Reynahan ay nagsisilbing pagkakataon para sa pagkakaisa ng buong komunidad.
-                Sa panahon ng selebrasyon, naglalaho ang mga pagkakaiba at nagiging isang pamilya ang lahat ng mamamayan
-                ng Vinzons.
+                Higit pa sa isang pagdiriwang, nagsisilbing pagkakataon din ang Harian at Reynahan upang magbuklod ang
+                mga mamamayan. Sa pananaw ng mga lokal, nagbubunga ito ng pagkakaisa at pagbibigayan, na siyang
+                nagpapalalim sa diwa ng pagtutulungan at pagmamahalan. Bukod pa rito, itinuturing itong mahalagang
+                bahagi ng turismo ng Vinzons na ipinagmamalaki sa buong lalawigan.
               </p>
               <p>
-                Ang diwa ng bayanihan ay malakas na nararamdaman sa panahon ng mga paghahanda at mismong pagdiriwang.
-                Ang bawat miyembro ng komunidad ay may kanya-kanyang papel na ginagampanan upang maging matagumpay ang
-                selebrasyon, na nagpapakita ng malalim na ugnayan at pagmamalasakit sa isa't isa.
+                Habang nananatili ang esensya ng Harian at Reynahan, hindi maikakaila ang mga pagbabagong dulot ng
+                panahon. Sa mga nakalipas na taon, naging mas engrande ang pagdiriwang, mula sa kasuotan at dekorasyon
+                hanggang sa kabuoang gastusin.
               </p>
             </motion.div>
           </div>
