@@ -248,7 +248,7 @@ export default function Media() {
             <div className="absolute -top-3 -left-3 w-10 h-10 border-t-2 border-l-2 border-brown-deer/50"></div>
             <div className="absolute -bottom-3 -right-3 w-10 h-10 border-b-2 border-r-2 border-brown-deer/50"></div>
             <Image
-              src="/placeholder.svg?height=160&width=160"
+              src="/21.jpg?height=160&width=160"
               alt="Dr. Maria Santos"
               width={160}
               height={160}
@@ -260,7 +260,7 @@ export default function Media() {
             <p className="text-copper font-medium text-lg">Pangunahing Mananaliksik</p>
             <p className="mt-2 text-brown-deer/80">
               Estudyante ng Camarines Norte State College. Nanguna sa
-              pananaliksik at dokumentasyon ng Harian at Reynahan mula 2018 hanggang 2022.
+              pananaliksik at dokumentasyon ng Harian at Reynahan.
             </p>
           </div>
         </div>
@@ -278,7 +278,7 @@ export default function Media() {
             <div className="absolute -top-3 -left-3 w-10 h-10 border-t-2 border-l-2 border-brown-deer/50"></div>
             <div className="absolute -bottom-3 -right-3 w-10 h-10 border-b-2 border-r-2 border-brown-deer/50"></div>
             <Image
-              src="/placeholder.svg?height=160&width=160"
+              src="/20.jpg?height=160&width=160"
               alt="Prof. Juan Reyes"
               width={160}
               height={160}
@@ -290,7 +290,7 @@ export default function Media() {
             <p className="text-copper font-medium text-lg">Mananaliksik</p>
             <p className="mt-2 text-brown-deer/80">
                Estudyante ng Camarines Norte State College. Nanguna sa
-              pananaliksik at dokumentasyon ng Harian at Reynahan mula 2018 hanggang 2022.
+              pananaliksik at dokumentasyon ng Harian at Reynahan.
             </p>
           </div>
         </div>
