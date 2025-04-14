@@ -145,7 +145,7 @@ export default function Kasaysayan() {
                 className="image-frame"
               >
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/9.jpg?height=400&width=600"
                   alt="Larawan ng Harian"
                   width={600}
                   height={400}
@@ -166,7 +166,7 @@ export default function Kasaysayan() {
                 className="image-frame order-1 md:order-2"
               >
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/12.jpg?height=400&width=600"
                   alt="Larawan ng Reynahan"
                   width={600}
                   height={400}
