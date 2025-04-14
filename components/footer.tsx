@@ -12,8 +12,8 @@ export default function Footer() {
               <Image
                 src="/lakbay.png"
                 alt="E-Lakbay Logo"
-                width={150}
-                height={50}
+                width={5}
+                height={5}
                 className="h-auto w-auto object-contain"
               />
             </div>
