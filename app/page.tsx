@@ -238,7 +238,7 @@ export default function Home() {
               <video
                 ref={videoRef}
                 className="w-full h-full object-cover"
-                poster="/placeholder.svg?height=720&width=1280"
+                poster="/storyyy.mp4?height=720&width=1280"
                 onClick={handleVideoPlay}
               >
                 <source src="#" type="video/mp4" />
