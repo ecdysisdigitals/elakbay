@@ -43,21 +43,19 @@ export default function Esperitwalidad() {
                   Espiritwal na Diwa ng Harian at Reynahan
                 </h2>
                 <p className="mb-4">
-                  Higit pa sa makulay at masayang selebrasyon, ang Harian at Reynahan nagsisilbing patunay ng malalim na
-                  pananampalataya ng mga taga-Vinzons. Sa kabila ng engrandeng kasuotan, makukulay na dekorasyon, at
-                  masiglang mga aktibidad, nananatili ang espiritwal na puso ng pagdiriwang. Isa itong banal na
-                  paggunita na nagpapalalim ng ugnayan ng mga mamamayan sa Diyos at sa isa't isa.
+                  Tunay na malalim ang ispirituwal na koneksyon ng mga mamamayan sa bayan ng Vinzons, lalo na sa
+                  pagdiriwang ng Harian at Reynahan. Isa itong mahalagang salik kung bakit mas nadarama ang diwa ng
+                  selebrasyon hindi bilang isang simpleng pagtitipon, kung hindi isang makabuluhang sandali ng
+                  pananampalataya. Sa pagsisimula ng pagdiriwang sa pamamagitan ng panalangin at banal na misa,
+                  naipapakita ang matatag na pananampalataya ng komunidad at ang pagkakabigkis nila sa isa't isa.
                 </p>
                 <p>
-                  Matagal nang bahagi ng kulturang Vinzons ang Harian at Reynahan, at ito'y patuloy na isinasabuhay ng
-                  bawat henerasyon. Isa itong nagpasalin-saling pamana, na nagbibigay-diin sa kahalagahan ng
-                  pananampalataya sa kabila ng makabagong panahon. Bukod sa pagiging relihiyosong selebrasyon, ang
-                  Harian at Reynahan nagsisilbing daan ng pagkakaisa at kasiyahan sa komunidad. Sinisimulan ang
-                  pagdiriwang sa pamamagitan ng isang banal na misa na dinadaluhan din ng mga kalahok. Isa na itong
-                  nakasanayang bahagi ng tradisyon, na naglalayong ipakita ang pananampalataya at pasasalamat sa Diyos.
-                  Sa diwang ito, naisasabuhay hindi lamang ng mga hinihirang na mga hari at reyna, kung hindi maging ng
-                  mga taong dumadalo ang aral ng pagpapakumbaba at pagkilala na sa kabila ng kayamanan o kasikatan, iisa
-                  lamang ang Diyos na dapat parangalan.
+                  Matagal nang bahagi ang Harian at Reynahan ng kultura ng Vinzons at patuloy na isinasabuhay ng bawat
+                  henerasyon. Isa itong manipestasyon ng pagiging relihiyoso ng mga mamamayan, kung saan hindi lamang
+                  limitado ang pagdiriwang sa aspeto ng kasiyahan kung hindi nagsisilbi ring daluyan ng ispirituwal na
+                  paninindigan ng komunidad. Bilang isang tradisyong Katoliko, binibigyang-buhay ng pagdiriwang ang
+                  mahahalagang kaganapan sa pananampalataya, na may layuning ipasa ang mga aral at diwa ng
+                  pananampalataya sa mga kabataan.
                 </p>
               </InteractiveCard>
             </motion.div>
@@ -167,10 +165,10 @@ export default function Esperitwalidad() {
                 </div>
                 <h3 className="text-xl font-bold mb-2">Pasasalamat</h3>
                 <p>
-                  Ang selebrasyon nagsisilbi ring pagkakataon para sa pasasalamat. Sa mga panalangin, pag-aalay, at
-                  pagbibigayan, ipinapakita ng komunidad ang kanilang taos-pusong pasasalamat sa mga biyayang natanggap.
-                  Maging ang sektor ng agrikultura nakikibahagi sa pamamagitan ng mga pamisa at pag-aalay ng mga ani
-                  bilang simbolo ng kanilang pananampalataya at pasasalamat.
+                  Bukod dito, itinuturing din ang Harian at Reynahan bilang isang pagkakataon ng pasasalamat sa mga
+                  biyayang natatanggap ng pamayanan. Sa bawat bahagi ng programa lalo na mula sa mga sektor gaya ng
+                  agrikultura, kasama ang pag-aalay at mga panalangin bilang pagpapakita ng pasasalamat at paghingi ng
+                  patuloy na gabay mula sa Diyos.
                 </p>
               </InteractiveCard>
             </motion.div>
