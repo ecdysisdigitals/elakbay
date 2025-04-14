@@ -70,7 +70,7 @@ export default function Esperitwalidad() {
               <div className="absolute -bottom-3 -right-3 w-10 h-10 border-b-2 border-r-2 border-brown-deer/50"></div>
 
               <Image
-                src="/placeholder.svg?height=400&width=300"
+                src="/11.jpg?height=400&width=300"
                 alt="Larawan ng Espiritwalidad"
                 width={300}
                 height={400}
@@ -106,7 +106,7 @@ export default function Esperitwalidad() {
               <InteractiveCard>
                 <div className="mb-4">
                   <Image
-                    src="/placeholder.svg?height=200&width=400"
+                    src="/11.jpg?height=200&width=400"
                     alt="Larawan ng Pananampalataya"
                     width={400}
                     height={200}
@@ -131,7 +131,7 @@ export default function Esperitwalidad() {
               <InteractiveCard>
                 <div className="mb-4">
                   <Image
-                    src="/placeholder.svg?height=200&width=400"
+                    src="/12.jpg?height=200&width=400"
                     alt="Larawan ng Pagpapakumbaba"
                     width={400}
                     height={200}
@@ -156,7 +156,7 @@ export default function Esperitwalidad() {
               <InteractiveCard>
                 <div className="mb-4">
                   <Image
-                    src="/placeholder.svg?height=200&width=400"
+                    src="/14.jpg?height=200&width=400"
                     alt="Larawan ng Pasasalamat"
                     width={400}
                     height={200}
