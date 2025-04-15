@@ -279,7 +279,6 @@ export default function Home() {
               </p>
               <div className="flex items-center text-sm text-brown-deer">
                 <Users className="w-4 h-4 mr-1" />
-                <span>Idinirehe ni Juan Dela Cruz</span>
                 <span className="mx-2">•</span>
                 <Calendar className="w-4 h-4 mr-1" />
                 <span>2023</span>
