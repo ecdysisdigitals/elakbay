@@ -93,22 +93,22 @@ export default function Kasaysayan() {
   ]
 
   const reynahanData = [
-    { year: "2010", kabuhayan: "Queen 1", kaunlaran: "Queen 2", kababaihan: "Queen 3" },
-    { year: "2011", kabuhayan: "Queen 4", kaunlaran: "Queen 5", kababaihan: "Queen 6" },
-    { year: "2012", kabuhayan: "Queen 7", kaunlaran: "Queen 8", kababaihan: "Queen 9" },
-    { year: "2013", kabuhayan: "Queen 10", kaunlaran: "Queen 11", kababaihan: "Queen 12" },
-    { year: "2014", kabuhayan: "Queen 13", kaunlaran: "Queen 14", kababaihan: "Queen 15" },
-    { year: "2015", kabuhayan: "Queen 16", kaunlaran: "Queen 17", kababaihan: "Queen 18" },
-    { year: "2016", kabuhayan: "Queen 19", kaunlaran: "Queen 20", kababaihan: "Queen 21" },
-    { year: "2017", kabuhayan: "Queen 22", kaunlaran: "Queen 23", kababaihan: "Queen 24" },
-    { year: "2018", kabuhayan: "Queen 25", kaunlaran: "Queen 26", kababaihan: "Queen 27" },
-    { year: "2019", kabuhayan: "Queen 28", kaunlaran: "Queen 29", kababaihan: "Queen 30" },
-    { year: "2020", kabuhayan: "Queen 31", kaunlaran: "Queen 32", kababaihan: "Queen 33" },
-    { year: "2021", kabuhayan: "Queen 34", kaunlaran: "Queen 35", kababaihan: "Queen 36" },
-    { year: "2022", kabuhayan: "Queen 37", kaunlaran: "Queen 38", kababaihan: "Queen 39" },
-    { year: "2023", kabuhayan: "Queen 40", kaunlaran: "Queen 41", kababaihan: "Queen 42" },
-    { year: "2024", kabuhayan: "Queen 43", kaunlaran: "Queen 44", kababaihan: "Queen 45" },
-    { year: "2025", kabuhayan: "Queen 46", kaunlaran: "Queen 47", kababaihan: "Queen 48" },
+    { year: "2010", kabuhayan: "Vilma Buendia", kaunlaran: "Jocelyn Jimenez", kababaihan: "Salome Petallo" },
+    { year: "2011", kabuhayan: "Marilyn Mago", kaunlaran: "Elena Asis", kababaihan: "Jocelyn Petallo" },
+    { year: "2012", kabuhayan: "Gracia Raro", kaunlaran: "Ofelia Pajarillo", kababaihan: "Jocelyn Petallo" },
+    { year: "2013", kabuhayan: "Melinda Adorino", kaunlaran: "Evelyn Jalimao", kababaihan: "Lolita Balce" },
+    { year: "2014", kabuhayan: "Milagros Raro", kaunlaran: "Gloria Jardinero", kababaihan: "Letecia Presnido" },
+    { year: "2015", kabuhayan: "Christy Odi", kaunlaran: "Aileen Raro", kababaihan: "Zenaida Bustamante" },
+    { year: "2016", kabuhayan: "Celina Aceron", kaunlaran: "Gilda Ramos", kababaihan: "Ma. Charity Guevarra" },
+    { year: "2017", kabuhayan: "Rowena Bernacer", kaunlaran: "Hilda Pajarillo", kababaihan: "Jocelyn Asis" },
+    { year: "2018", kabuhayan: "Annabelle Jalimao", kaunlaran: "Maryjane Raro", kababaihan: "Arlene Mago" },
+    { year: "2019", kabuhayan: "Marinel Mago", kaunlaran: "M. Daisy Montoya", kababaihan: "Ma. Lynette Mago" },
+    { year: "2020", kabuhayan: "Rosalie Buendia", kaunlaran: "Genalyn Jalimao", kababaihan: "Marilou Mago" },
+    { year: "2021", kabuhayan: "", kaunlaran: "", kababaihan: "" },
+    { year: "2022", kabuhayan: "", kaunlaran: "", kababaihan: "" },
+    { year: "2023", kabuhayan: "Myrna Aloc", kaunlaran: "Aiza Ibis", kababaihan: "Jenny Icaro" },
+    { year: "2024", kabuhayan: "Dharen Mago", kaunlaran: "Elena Almacin", kababaihan: "Agnes Rivarez" },
+    { year: "2025", kabuhayan: "Riza Bernacer", kaunlaran: "Merian Ramoss", kababaihan: "Maricar Caasi" },
   ]
 
   return (
