@@ -278,7 +278,7 @@ export default function Media() {
             <div className="absolute -top-3 -left-3 w-10 h-10 border-t-2 border-l-2 border-brown-deer/50"></div>
             <div className="absolute -bottom-3 -right-3 w-10 h-10 border-b-2 border-r-2 border-brown-deer/50"></div>
             <Image
-              src="/20.jpg?height=160&width=160"
+              src="/20.png?height=160&width=160"
               alt="Prof. Juan Reyes"
               width={160}
               height={160}
