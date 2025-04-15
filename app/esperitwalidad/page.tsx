@@ -24,7 +24,7 @@ export default function Esperitwalidad() {
             transition={{ duration: 0.8 }}
             className="text-center mb-12"
           >
-            <h1 className="text-4xl md:text-5xl font-bold text-brown-deer mb-4">Esperitwalidad</h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-brown-deer mb-4">Ispirituwalidad</h1>
             <p className="text-lg max-w-3xl mx-auto">
               Ang malalim na espiritwalidad ng mga mamamayan sa Harian at Reynahan
             </p>
