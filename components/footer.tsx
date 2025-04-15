@@ -9,13 +9,15 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
             <div className="flex items-center mb-4">
-              <Image
-                src="/e-lakbay.png"
-                alt="E-Lakbay Logo"
-                width={5}
-                height={5}
-                className="h-auto w-auto object-contain"
-              />
+              <div className="relative w-36 sm:w-40 md:w-44 h-[50px] md:h-[60px]">
+                <Image
+                  src="/lakbay.png"
+                  alt="E-Lakbay Logo"
+                  fill
+                  className="object-contain"
+                  priority
+                />
+              </div>
             </div>
             <p className="text-brown-deer font-medium mb-4">
               Isang virtual na paglalakbay sa mayamang kultura at kasaysayan ng Harian at Reynahan sa Vinzons, Camarines
