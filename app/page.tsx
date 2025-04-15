@@ -324,7 +324,7 @@ export default function Home() {
               },
               {
                 icon: "📸",
-                title: "Esperitwalidad",
+                title: "Ispirituwalidad",
                 desc: "Unawain ang malalim na espiritwalidad ng mga mamamayan.",
                 link: "/esperitwalidad",
               },
