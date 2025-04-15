@@ -30,7 +30,7 @@ export default function Navbar() {
     { name: "Kasaysayan", href: "/kasaysayan" },
     { name: "Gawi at Paniniwala", href: "/gawi-at-paniniwala" },
     { name: "Kultura", href: "/kultura" },
-    { name: "Esperitwalidad", href: "/esperitwalidad" },
+    { name: "Ispirituwalidad", href: "/esperitwalidad" },
     { name: "Media", href: "/media" },
   ]
 
