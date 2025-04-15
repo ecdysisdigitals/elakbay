@@ -12,6 +12,7 @@ import InteractiveCard from "@/components/interactive-card"
 
 export default function Kasaysayan() {
   const [showFullTable, setShowFullTable] = useState(false)
+  const [showFullReynahanTable, setShowFullReynahanTable] = useState(false)
 
   // Data for the Harian kings from 1951 to 2024
   const harianData = [
@@ -89,6 +90,25 @@ export default function Kasaysayan() {
     { year: "2022", melchor: "", gaspar: "", baltazar: "" },
     { year: "2023", melchor: "", gaspar: "", baltazar: "" },
     { year: "2024", melchor: "Ronnie Jerez", gaspar: "Puto Asis Madera", baltazar: "Fr. Jojo Caymo" },
+  ]
+
+  const reynahanData = [
+    { year: "2010", kabuhayan: "Queen 1", kaunlaran: "Queen 2", kababaihan: "Queen 3" },
+    { year: "2011", kabuhayan: "Queen 4", kaunlaran: "Queen 5", kababaihan: "Queen 6" },
+    { year: "2012", kabuhayan: "Queen 7", kaunlaran: "Queen 8", kababaihan: "Queen 9" },
+    { year: "2013", kabuhayan: "Queen 10", kaunlaran: "Queen 11", kababaihan: "Queen 12" },
+    { year: "2014", kabuhayan: "Queen 13", kaunlaran: "Queen 14", kababaihan: "Queen 15" },
+    { year: "2015", kabuhayan: "Queen 16", kaunlaran: "Queen 17", kababaihan: "Queen 18" },
+    { year: "2016", kabuhayan: "Queen 19", kaunlaran: "Queen 20", kababaihan: "Queen 21" },
+    { year: "2017", kabuhayan: "Queen 22", kaunlaran: "Queen 23", kababaihan: "Queen 24" },
+    { year: "2018", kabuhayan: "Queen 25", kaunlaran: "Queen 26", kababaihan: "Queen 27" },
+    { year: "2019", kabuhayan: "Queen 28", kaunlaran: "Queen 29", kababaihan: "Queen 30" },
+    { year: "2020", kabuhayan: "Queen 31", kaunlaran: "Queen 32", kababaihan: "Queen 33" },
+    { year: "2021", kabuhayan: "Queen 34", kaunlaran: "Queen 35", kababaihan: "Queen 36" },
+    { year: "2022", kabuhayan: "Queen 37", kaunlaran: "Queen 38", kababaihan: "Queen 39" },
+    { year: "2023", kabuhayan: "Queen 40", kaunlaran: "Queen 41", kababaihan: "Queen 42" },
+    { year: "2024", kabuhayan: "Queen 43", kaunlaran: "Queen 44", kababaihan: "Queen 45" },
+    { year: "2025", kabuhayan: "Queen 46", kaunlaran: "Queen 47", kababaihan: "Queen 48" },
   ]
 
   return (
@@ -252,6 +272,61 @@ export default function Kasaysayan() {
               {showFullTable && (
                 <button
                   onClick={() => setShowFullTable(false)}
+                  className="mt-4 flex items-center justify-center mx-auto text-copper hover:text-brown-deer transition-colors"
+                >
+                  Itago ang buong listahan <ChevronUp className="ml-1 w-4 h-4" />
+                </button>
+              )}
+            </InteractiveCard>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className="mb-8 mt-12"
+          >
+            <InteractiveCard>
+              <h2 className="text-2xl font-bold mb-6 flex items-center">
+                <Users className="w-5 h-5 mr-2 text-copper" />
+                Listahan ng mga Reyna sa "Reynahan" (2010-2025)
+              </h2>
+
+              <div className="overflow-x-auto">
+                <table className="w-full border-collapse">
+                  <thead>
+                    <tr className="bg-copper/20">
+                      <th className="border border-brown-deer/30 p-2 text-left">Taon</th>
+                      <th className="border border-brown-deer/30 p-2 text-left">Queen Kabuhayan</th>
+                      <th className="border border-brown-deer/30 p-2 text-left">Queen Kaunlaran</th>
+                      <th className="border border-brown-deer/30 p-2 text-left">Queen Kababaihan</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {reynahanData.slice(0, showFullReynahanTable ? reynahanData.length : 10).map((row, index) => (
+                      <tr key={index} className={index % 2 === 0 ? "bg-light-beige" : "bg-medium-beige/50"}>
+                        <td className="border border-brown-deer/30 p-2">{row.year}</td>
+                        <td className="border border-brown-deer/30 p-2">{row.kabuhayan}</td>
+                        <td className="border border-brown-deer/30 p-2">{row.kaunlaran}</td>
+                        <td className="border border-brown-deer/30 p-2">{row.kababaihan}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+
+              {!showFullReynahanTable && (
+                <button
+                  onClick={() => setShowFullReynahanTable(true)}
+                  className="mt-4 flex items-center justify-center mx-auto text-copper hover:text-brown-deer transition-colors"
+                >
+                  Ipakita ang buong listahan <ChevronDown className="ml-1 w-4 h-4" />
+                </button>
+              )}
+
+              {showFullReynahanTable && (
+                <button
+                  onClick={() => setShowFullReynahanTable(false)}
                   className="mt-4 flex items-center justify-center mx-auto text-copper hover:text-brown-deer transition-colors"
                 >
                   Itago ang buong listahan <ChevronUp className="ml-1 w-4 h-4" />
