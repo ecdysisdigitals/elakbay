@@ -20,7 +20,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-brown-deer font-medium mb-4">
-              Isang virtual na paglalakbay sa mayamang kultura at kasaysayan ng Harian at Reynahan sa Vinzons, Camarines
+              Isang birtuwal na paglalakbay sa mayamang kultura at kasaysayan ng Harian at Reynahan sa Vinzons, Camarines
               Norte.
             </p>
             {/* Removed Mananaliksik section */}
@@ -57,7 +57,7 @@ export default function Footer() {
                   href="/esperitwalidad"
                   className="text-brown-deer hover:text-copper transition-colors font-medium"
                 >
-                  Esperitwalidad
+                  Ispirituwalidad
                 </Link>
               </li>
               <li>
