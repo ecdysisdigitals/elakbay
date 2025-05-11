@@ -29,7 +29,6 @@ export default function Media() {
     { id: 10, src: "/10.jpg", alt: "Larawan 10" },
     { id: 11, src: "/11.jpg", alt: "Larawan 11" },
     { id: 12, src: "/12.jpg", alt: "Larawan 12" },
-    { id: 13, src: "/13.jpg", alt: "Larawan 13" },
     { id: 14, src: "/14.jpg", alt: "Larawan 14" },
     { id: 15, src: "/15.jpg", alt: "Larawan 15" },
     { id: 16, src: "/16.png", alt: "Larawan 16" },
