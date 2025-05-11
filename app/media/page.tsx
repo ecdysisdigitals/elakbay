@@ -37,9 +37,7 @@ export default function Media() {
   // Videos array with actual video files
   const videos = [
     { id: 1, src: "/1.mp4", thumbnail: "/1.png", duration: "8:45" },
-    { id: 2, src: "/2.mp4", thumbnail: "/2.png", duration: "12:30" },
     { id: 3, src: "/3.mp4", thumbnail: "/3.png", duration: "6:15" },
-    { id: 4, src: "/4.mp4", thumbnail: "/4.png", duration: "10:20" },
     { id: 5, src: "/5.mp4", thumbnail: "/5.png", duration: "15:05" },
   ]
 
