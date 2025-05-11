@@ -87,7 +87,7 @@ export default function Home() {
               transition={{ delay: 0.6, duration: 0.8 }}
             >
 
-              Elektronikong Paglalakbay sa Ilang Taong Koronasyon ng Pananampalataya't Tradisyon
+              Elektronikong Paglalakbay sa Ilang Taong Koronasyon ng Pananampalataya't Tradisiyon
             </motion.p>
           </motion.div>
 
@@ -127,8 +127,8 @@ export default function Home() {
           >
             <h2 className="section-title mx-auto">Pangunahing Pahina</h2>
             <p className="text-lg max-w-3xl mx-auto mt-6 text-brown-deer">
-              Maligayang pagdating sa virtual na paglalakbay sa mayamang kultura at kasaysayan ng Harian at Reynahan sa
-              Vinzons, Camarines Norte. Isang paglalakbay sa nakaraan upang makilala ang mga tradisyon at pamana ng
+              Maligayang pagdating sa birtuwal na paglalakbay sa mayamang kultura at kasaysayan ng Harian at Reynahan sa
+              Vinzons, Camarines Norte. Isang paglalakbay sa nakaraan upang makilala ang mga tradisiyon at pamana ng
               ating mga ninuno.
             </p>
           </motion.div>
@@ -156,8 +156,8 @@ export default function Home() {
                 </div>
                 <p className="mb-4 text-brown-deer">
                   Ang Harian, isang makasaysayang lugar sa Vinzons, Camarines Norte na nagsisilbing tahanan ng
-                  mayamang kultura at tradisyon. Naging sentro ng pamumuhay at pananampalataya ng mga mamamayan
-                  sa loob ng maraming henerasyon.
+                  mayamang kultura at tradisiyon. Naging sentro ng pamumuhay at pananampalataya ng mga mamamayan
+                  sa loob ng maraming henerasiyon.
                 </p>
                 <motion.div whileHover={{ x: 5 }} whileTap={{ scale: 0.95 }}>
                   <Link href="/kasaysayan" className="text-copper hover:underline font-bold">
@@ -189,7 +189,7 @@ export default function Home() {
                 </div>
                 <p className="mb-4 text-brown-deer">
                   Ang Reynahan, isang mahalagang bahagi ng kasaysayan ng Vinzons, Camarines Norte. Ito ay nagsisilbing
-                  patunay sa mayamang pamana at tradisyon ng mga naninirahan sa lugar na ito.
+                  patunay sa mayamang pamana at tradisiyon ng mga naninirahan sa lugar na ito.
                 </p>
                 <motion.div whileHover={{ x: 5 }} whileTap={{ scale: 0.95 }}>
                   <Link href="/kasaysayan" className="text-copper hover:underline font-bold">
@@ -274,7 +274,7 @@ export default function Home() {
               </h3>
               <p className="mb-3 text-brown-deer">
                 Ang video na ito ay nagpapakita ng mayamang kasaysayan at kultura ng Harian at Reynahan sa Vinzons,
-                Camarines Norte. Ito ay nagbibigay-liwanag sa mga tradisyon, ritwal, at pamumuhay ng mga mamamayan sa
+                Camarines Norte. Ito ay nagbibigay-liwanag sa mga tradisiyon, ritwal, at pamumuhay ng mga mamamayan sa
                 lugar na ito.
               </p>
               <div className="flex items-center text-sm text-brown-deer">
@@ -313,7 +313,7 @@ export default function Home() {
               {
                 icon: "🏺",
                 title: "Gawi at Paniniwala",
-                desc: "Tuklasin ang mga tradisyonal na gawi at paniniwala ng mga mamamayan.",
+                desc: "Tuklasin ang mga tradisiyonal na gawi at paniniwala ng mga mamamayan.",
                 link: "/gawi-at-paniniwala",
               },
               {
