@@ -47,7 +47,7 @@ export default function Media() {
   // Sources list
   const sources = [
     "Balce, F. (1975). Ang Kasaysayan ng Harian sa Vinzons. Naga City Press.",
-    "Cereno, V. (1982). Mga Tradisyon at Kultura ng Camarines Norte. Manila Publishing House.",
+    "Cereno, V. (1982). Mga Tradisiyon at Kultura ng Camarines Norte. Manila Publishing House.",
     "Department of Tourism - Bicol Region. (2010). Cultural Heritage of Vinzons.",
     "Gonzales, M. (2005). Espiritwalidad at Kultura sa Bicol. University of the Philippines Press.",
     "National Commission for Culture and the Arts. (2015). Dokumentasyon ng mga Pistahan sa Bicol.",
@@ -224,7 +224,7 @@ export default function Media() {
     >
       <h2 className="text-3xl md:text-4xl font-bold text-brown-deer mb-4">Mananaliksik at Tagapayo</h2>
       <p className="text-lg max-w-3xl mx-auto">
-        Ang mga indibidwal na nag-ambag sa pananaliksik at dokumentasyon ng ating mayamang kultura
+        Ang mga indibidwal na nag-ambag sa pananaliksik at dokumentasiyon ng ating mayamang kultura
       </p>
     </motion.div>
 
@@ -260,7 +260,7 @@ export default function Media() {
             <p className="text-copper font-medium text-lg">Mananaliksik</p>
             <p className="mt-2 text-brown-deer/80 text-justify">
               Estudyante ng Camarines Norte State College. Nanguna sa
-              pananaliksik at dokumentasyon ng Harian at Reynahan.
+              pananaliksik at dokumentasiyon ng Harian at Reynahan.
             </p>
           </div>
         </div>
@@ -290,7 +290,7 @@ export default function Media() {
             <p className="text-copper font-medium text-lg">Mananaliksik</p>
             <p className="mt-2 text-brown-deer/80 text-justify">
                Estudyante ng Camarines Norte State College. Nanguna sa
-              pananaliksik at dokumentasyon ng Harian at Reynahan.
+              pananaliksik at dokumentasiyon ng Harian at Reynahan.
             </p>
           </div>
         </div>
@@ -326,7 +326,7 @@ export default function Media() {
           <div className="flex-1 text-center md:text-left">
             <h3 className="text-2xl font-bold text-brown-deer">RYAN S. RODRIGUEZ, PhD</h3>
             <p className="text-copper font-medium text-lg">Tagapayo</p>
-            <p className="mt-2 text-brown-deer/80 text-justify">Nagtapos ng kolehiyo sa La Consolacion College-Daet sa kursong Batsilyer sa Pansekondaryang Edukasyon major sa Filipino noong 2005. Nagtapos ng Master of Arts in Education major sa Filipino sa Universidad de Santa Isabel - Lungsod Naga. 
+            <p className="mt-2 text-brown-deer/80 text-justify">Nagtapos ng kolehiyo sa La Consolacion College-Daet sa kursong Batsilyer sa Pansekondaryang Edukasyion major sa Filipino noong 2005. Nagtapos ng Master of Arts in Education major sa Filipino sa Universidad de Santa Isabel - Lungsod Naga. 
             </p>
           </div>
         </div>
