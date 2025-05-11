@@ -215,10 +215,10 @@ export default function Home() {
           >
             <h2 className="section-title mx-auto flex items-center justify-center">
               <BookOpen className="w-6 h-6 mr-3 text-copper" />
-              Kwento ng Harian at Reynahan
+              Kuwento ng Harian at Reynahan
             </h2>
             <p className="text-lg max-w-3xl mx-auto mt-6 text-brown-deer">
-              Panoorin ang maikling animasyon tungkol sa mayamang kasaysayan at kultura ng Harian at Reynahan sa Vinzons,
+              Panoorin ang maikling animasiyon tungkol sa mayamang kasaysayan at kultura ng Harian at Reynahan sa Vinzons,
               Camarines Norte.
             </p>
           </motion.div>
@@ -270,11 +270,11 @@ export default function Home() {
             <InteractiveCard className="mt-6">
               <h3 className="text-xl font-bold mb-3 flex items-center">
                 <Award className="w-5 h-5 mr-2 text-copper" />
-                Tungkol sa Video
+                Tungkol sa Bidyo
               </h3>
               <p className="mb-3 text-brown-deer">
-                Ang video na ito ay nagpapakita ng mayamang kasaysayan at kultura ng Harian at Reynahan sa Vinzons,
-                Camarines Norte. Ito ay nagbibigay-liwanag sa mga tradisiyon, ritwal, at pamumuhay ng mga mamamayan sa
+                Ang bidyo na ito ay nagpapakita ng mayamang kasaysayan at kultura ng Harian at Reynahan sa Vinzons,
+                Camarines Norte. Ito ay nagbibigay-liwanag sa mga tradisiyon, rituwal, at pamumuhay ng mga mamamayan sa
                 lugar na ito.
               </p>
               <div className="flex items-center text-sm text-brown-deer">
@@ -299,7 +299,7 @@ export default function Home() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="section-title mx-auto">Mga Tampok na Seksyon</h2>
+            <h2 className="section-title mx-auto">Mga Tampok na Seksiyon</h2>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -313,7 +313,7 @@ export default function Home() {
               {
                 icon: "🏺",
                 title: "Gawi at Paniniwala",
-                desc: "Tuklasin ang mga tradisiyonal na gawi at paniniwala ng mga mamamayan.",
+                desc: "Tuklasin ang mga tradisiyunal na gawi at paniniwala ng mga mamamayan.",
                 link: "/gawi-at-paniniwala",
               },
               {
@@ -325,7 +325,7 @@ export default function Home() {
               {
                 icon: "📸",
                 title: "Ispirituwalidad",
-                desc: "Unawain ang malalim na espiritwalidad ng mga mamamayan.",
+                desc: "Unawain ang malalim na ispirituwalidad ng mga mamamayan.",
                 link: "/esperitwalidad",
               },
             ].map((item, index) => (
@@ -386,7 +386,7 @@ export default function Home() {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Simulan ang Iyong Virtual na Paglalakbay</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">Simulan ang Iyong Birtuwal na Paglalakbay</h2>
             <p className="text-lg max-w-2xl mx-auto mb-8 text-brown-deer">
               Maglakbay sa nakaraan at tuklasin ang mayamang kultura at kasaysayan ng Harian at Reynahan sa Vinzons,
               Camarines Norte.
