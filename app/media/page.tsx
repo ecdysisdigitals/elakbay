@@ -326,7 +326,7 @@ export default function Media() {
           <div className="flex-1 text-center md:text-left">
             <h3 className="text-2xl font-bold text-brown-deer">RYAN S. RODRIGUEZ, PhD</h3>
             <p className="text-copper font-medium text-lg">Tagapayo</p>
-            <p className="mt-2 text-brown-deer/80">Nagtapos ng kolehiyo sa La Consolacion College-Daet sa kursong Batsilyer sa Pansekondaryang Edukasyon major sa Filipino noong 2005. Nagtapos ng Master of Arts in Education major sa Filipino sa Universidad de Santa Isabel - Lungsod Naga. 
+            <p className="mt-2 text-brown-deer/80 text-justify">Nagtapos ng kolehiyo sa La Consolacion College-Daet sa kursong Batsilyer sa Pansekondaryang Edukasyon major sa Filipino noong 2005. Nagtapos ng Master of Arts in Education major sa Filipino sa Universidad de Santa Isabel - Lungsod Naga. 
             </p>
           </div>
         </div>
