@@ -145,7 +145,7 @@ export default function Kasaysayan() {
                 <p className="mb-4">
                   Nagsimula ang Harian noong 1951 sa isang hindi inaasahan at masayang pagkakataon nang ang tatlong
                   magkaibigang sina Francisco Balce, Victorio Cereno, at ang kanilang kaibigang Instik nagpasya na
-                  gawing natatangi at makulay ang kanilang selebrasyon ng pista ng Tatlong Hari.
+                  gawing natatangi at makulay ang kanilang selebrasiyon ng pista ng Tatlong Hari.
                 </p>
                 <p className="mb-4">
                   Habang sila'y nag-iinuman at nagdiriwang, isang puting manok ang dumaan sa kanilang harapan, na siyang
