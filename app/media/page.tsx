@@ -258,7 +258,7 @@ export default function Media() {
           <div className="flex-1 text-center md:text-left">
             <h3 className="text-2xl font-bold text-brown-deer">John Patrick A. Suterio</h3>
             <p className="text-copper font-medium text-lg">Mananaliksik</p>
-            <p className="mt-2 text-brown-deer/80">
+            <p className="mt-2 text-brown-deer/80 text-justify">
               Estudyante ng Camarines Norte State College. Nanguna sa
               pananaliksik at dokumentasyon ng Harian at Reynahan.
             </p>
@@ -288,7 +288,7 @@ export default function Media() {
           <div className="flex-1 text-center md:text-left">
             <h3 className="text-2xl font-bold text-brown-deer">Rose Anne M. Abletes</h3>
             <p className="text-copper font-medium text-lg">Mananaliksik</p>
-            <p className="mt-2 text-brown-deer/80">
+            <p className="mt-2 text-brown-deer/80 text-justify">
                Estudyante ng Camarines Norte State College. Nanguna sa
               pananaliksik at dokumentasyon ng Harian at Reynahan.
             </p>
