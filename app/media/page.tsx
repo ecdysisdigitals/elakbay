@@ -46,15 +46,17 @@ export default function Media() {
 
   // Sources list
   const sources = [
-    "Balce, F. (1975). Ang Kasaysayan ng Harian sa Vinzons. Naga City Press.",
-    "Cereno, V. (1982). Mga Tradisiyon at Kultura ng Camarines Norte. Manila Publishing House.",
-    "Department of Tourism - Bicol Region. (2010). Cultural Heritage of Vinzons.",
-    "Gonzales, M. (2005). Espiritwalidad at Kultura sa Bicol. University of the Philippines Press.",
-    "National Commission for Culture and the Arts. (2015). Dokumentasyon ng mga Pistahan sa Bicol.",
-    "Reyes, J. (2018). Oral History Collection: Interviews with Vinzons Elders.",
-    "Santos, L. (2000). Harian at Reynahan: Isang Pag-aaral. Journal of Philippine Studies, 45(2), 78-92.",
-    "Vinzons Historical Society. (2012). Archive of Historical Photographs of Harian and Reynahan.",
-  ]
+  "Bolo Calang Cawan Norte. (2024). Grandmarch of Tres Reyna's 2024 and ex Reyna's - Bolo Calang Cawan Norte Vinzons Camarines Norte [Video]. Facebook. https://www.facebook.com/watch/?ref=search&v=847953240438794",
+  "Cleah Jane. (n.d.). 69th Huli White Anniversary Celebration - Royal Grandmarch of the Kings & Ex-Kings with their Queens [Video]. Facebook. https://www.facebook.com/cleah.jane.7/videos/2313758088843717",
+  "Google. (n.d.). Munisipyo ng Vinzons [Map]. Google Maps. https://maps.app.goo.gl/L6SvRYJmkh6Sy79A6",
+  "Huli White Celebration. (2019). Huli White Celebration 2019 [Video]. Facebook. https://www.facebook.com/watch/?ref=search&v=574391432986610",
+  "Huli White Celebration. (n.d.). 67th Huli White Celebration - Royal Grand March [Video]. Facebook. https://www.facebook.com/watch?ref=search&v=402438953436602",
+  "Sh Villafranca. (n.d.). 71st HULI WHITE CELEBRATION at TOWN KIOSK [Video]. Facebook. https://www.facebook.com/shvillafranca/videos/746852496861357",
+  "[User Name Unavailable]. (2018). Huli White 3 Kings 2018 [Photo]. Facebook. https://www.facebook.com/photo/?fbid=402524756761355&set=a.324593451221153",
+  "[YouTube Channel Name Unavailable]. (2024). 71st Anniversary HULI WHITE 3 KINGS Yr.2024  Vinzons Camarines Norte [Video]. YouTube. https://www.youtube.com/watch?v=2-JMhmbwRKg",
+  "[YouTube Channel Name Unavailable]. (2024). 71st Anniversary HULI WHITE - THREE KINGS 2024  Vinzons Camarines Norte  Part 1/2 [Video]. YouTube. [Link not provided]"
+];
+
 
   return (
     <main className="min-h-screen pt-20 relative overflow-hidden">
