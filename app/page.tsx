@@ -313,7 +313,7 @@ export default function Home() {
               {
                 icon: "🏺",
                 title: "Gawi at Paniniwala",
-                desc: "Tuklasin ang mga tradisiyunal na gawi at paniniwala ng mga mamamayan.",
+                desc: "Tuklasin ang mga tradisyunal na gawi at paniniwala ng mga mamamayan.",
                 link: "/gawi-at-paniniwala",
               },
               {
