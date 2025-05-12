@@ -157,7 +157,7 @@ export default function Home() {
                 <p className="mb-4 text-brown-deer">
                   Ang Harian, isang makasaysayang lugar sa Vinzons, Camarines Norte na nagsisilbing tahanan ng
                   mayamang kultura at tradisyon. Naging sentro ng pamumuhay at pananampalataya ng mga mamamayan
-                  sa loob ng maraming henerasiyon.
+                  sa loob ng maraming henerasyon.
                 </p>
                 <motion.div whileHover={{ x: 5 }} whileTap={{ scale: 0.95 }}>
                   <Link href="/kasaysayan" className="text-copper hover:underline font-bold">
@@ -218,7 +218,7 @@ export default function Home() {
               Kuwento ng Harian at Reynahan
             </h2>
             <p className="text-lg max-w-3xl mx-auto mt-6 text-brown-deer">
-              Panoorin ang maikling animasiyon tungkol sa mayamang kasaysayan at kultura ng Harian at Reynahan sa Vinzons,
+              Panoorin ang maikling animasyon tungkol sa mayamang kasaysayan at kultura ng Harian at Reynahan sa Vinzons,
               Camarines Norte.
             </p>
           </motion.div>
